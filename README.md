@@ -1,19 +1,42 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 📊 Metric/Imperial Unit Conversion App
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple, responsive web application that performs instant metric-to-imperial and imperial-to-metric conversions for length, volume, and mass calculations.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🚀 Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+* **Instant Multi-Conversion**: Generates three categories of unit transformations with a single click.
+* **Precision Constraints**: All calculated outputs are accurately formatted to exactly three decimal places.
+* **Dynamic Styling**: Clean, modern interface designed closely following standard specifications.
 
-Happy Coding!
+## 📋 Requirements Fulfilled
+
+1. **Design Spec Fidelity**: Interface mirrors layout typography, container shadowing, and purple branding.
+2. **Event-Driven Execution**: All metric cards update dynamically only after the user triggers the "Convert" button.
+3. **Strict Math Handling**: Converts numeric inputs and rounds outputs down smoothly to 3 decimal places.
+
+## 🔢 Conversion Metrics Covered
+
+* **Length (Meter / Feet)**
+  * Meters to Feet ($1 \text{ meter} \approx 3.281 \text{ feet}$)
+  * Feet to Meters ($1 \text{ foot} \approx 0.305 \text{ meters}$)
+* **Volume (Liters / Gallons)**
+  * Liters to Gallons ($1 \text{ liter} \approx 0.264 \text{ gallons}$)
+  * Gallons to Liters ($1 \text{ gallon} \approx 3.785 \text{ liters}$)
+* **Mass (Kilograms / Pounds)**
+  * Kilos to Pounds ($1 \text{ kilo} \approx 2.204 \text{ pounds}$)
+  * Pounds to Kilos ($1 \text{ pound} \approx 0.454 \text{ kilos}$)
+
+## 🛠️ Built With
+
+* HTML5 (Semantic Structure)
+* CSS3 (Flexbox Layouts, Custom Properties)
+* Vanilla JavaScript (DOM Manipulation, Math API)
+
+## 🔧 Getting Started
+
+1. Clone this repository to your local system:
+   ```bash
+   git clone https://github.com
+   ```
+2. Open the `index.html` file directly in any modern desktop or mobile web browser.
+3. Type a numerical value into the top field and click **Convert**.
